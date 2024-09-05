@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart Festive Dhamakha</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>Spin The Wheel to Get 30% off from the Prize Pool</p>
+    <div class="wrapper">
+      <div class="container">
+        <canvas id="wheel"></canvas>
+        <button id="spin-btn" onclick="redirectToAnotherPage()">Spin</button>
+        <img src="https://th.bing.com/th/id/OIP.21te6xS6ZMWpnTTFwdC7QAHaE8?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="spinner arrow" />
+      </div>
+      <div id="final-value">
+        <p>Click On The Spin Button</p>
+      </div>
+    </div>
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

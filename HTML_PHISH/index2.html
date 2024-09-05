@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration - Flipkart</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background-color: #FFCC00;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h2{
+      text-align: center;
+      color: #2874f0;
+      margin-bottom: 20px;
+    }
+    label{
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="tel"]{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type="submit"]{
+      width: 100%;
+      padding: 10px;
+      background-color: #2874f0;
+      border: none;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover{
+      background-color: #1e5dbf;
+    }
+    .logo{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .logo img{
+      width: 120px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <p>Register to Get 30% Off</p>
+  <div class="container">
+    <div class="logo">
+      <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png" alt="Flipkart Logo">
+    </div>
+    <h2>Register to Your Account</h2>
+    <form action="save_data.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+  
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+  
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</body>
+</html>
